@@ -22,10 +22,10 @@ defmodule Exlivery.Orders.CreateOrUpdate do
   defp build_item(%{
          description: description,
          category: category,
-         unit_price: unit_price,
+         unity_price: unity_price,
          quantity: quantity
        }) do
-    case Item.bulid(description, category, unit_price, quantity) do
+    case Item.bulid(description, category, unity_price, quantity) do
       {:ok, item} -> item
       {:error, _reason} = error -> error
     end

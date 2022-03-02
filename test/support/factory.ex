@@ -18,7 +18,7 @@ defmodule Exlivery.Factory do
     %Item{
       description: "Pizza de Peperoni",
       category: :pizza,
-      unit_price: Decimal.new("35.5"),
+      unity_price: Decimal.new("35.5"),
       quantity: 2
     }
   end
@@ -31,7 +31,7 @@ defmodule Exlivery.Factory do
         build(:item,
           description: "Temaki de Salmão",
           category: :japonesa,
-          unit_price: Decimal.new("20.50"),
+          unity_price: Decimal.new("20.50"),
           quantity: 3
         )
       ],

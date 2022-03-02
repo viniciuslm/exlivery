@@ -14,7 +14,7 @@ defmodule Exlivery.Users.OrderTest do
         build(:item,
           description: "Temaki de Salmão",
           category: :japonesa,
-          unit_price: Decimal.new("20.50"),
+          unity_price: Decimal.new("20.50"),
           quantity: 3
         )
       ]
